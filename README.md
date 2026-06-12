@@ -72,7 +72,7 @@ Put the RP2040-Zero into bootloader mode and drag the generated `.uf2` file onto
 ## 🎥 Demo Videos
 
 * [Watch Demo Video 1](Videos/demo_video.mp4)
-* [Watch Demo Video 2](Videos/rgb .mp4)
+* [Watch Demo Video 2](Videos/rgb.mp4)
 
 
 
