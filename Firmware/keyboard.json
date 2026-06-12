@@ -1,0 +1,35 @@
+{
+    "keyboard_name": "apna_dost",
+    "manufacturer": "ApnaDost",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "rows": ["GP10", "GP11"],
+        "cols": ["GP12", "GP13"]
+    },
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "GP14",
+                "pin_b": "GP15"
+            }
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0,0], "x": 0, "y": 0 },
+                { "matrix": [0,1], "x": 1, "y": 0 },
+                { "matrix": [1,0], "x": 0, "y": 1 },
+                { "matrix": [1,1], "x": 1, "y": 1 }
+            ]
+        }
+    },
+    "features": {
+        "extrakey": true,
+        "encoder": true,
+        "rgblight": true,
+        "oled": true
+    }
+}
