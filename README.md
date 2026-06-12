@@ -29,9 +29,9 @@ A compact and powerful desktop macropad built around the RP2040-Zero, featuring 
 ## 📸 Gallery
 
 <p align="center">
-  <img src="Hardware/photos/build1.jpg" width="30%">
-  <img src="Hardware/photos/build2.jpg" width="30%">
-  <img src="Hardware/photos/oled.jpg" width="30%">
+  <img src="Hardware/photos/build1.jpg" height="250">
+  <img src="Hardware/photos/build2.jpg" height="250">
+  <img src="Hardware/photos/oled.jpg" height="250">
 </p>
 ## 📖 Full Build Guide
 
