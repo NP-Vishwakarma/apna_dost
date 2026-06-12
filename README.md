@@ -4,34 +4,42 @@
 
 A compact and powerful desktop macropad built around the RP2040-Zero, featuring an OLED display, rotary encoder, RGB lighting, and fully customizable QMK firmware.
 
-
 ![Main Build](Hardware/photos/main_build.jpg)
 
 ## ✨ Features
 
-- 2x2 Mechanical Key Matrix with 1N4148 diodes (Zero ghosting)
-- SSD1306 OLED Display using hardware I2C
-- EC11 Rotary Encoder with push switch
-- RGB Lighting with Dual-LED Hack
-- Easy `.uf2` firmware flashing
-- Custom PCB + Zero PCB support
+* 2x2 Mechanical Key Matrix with 1N4148 diodes (Zero ghosting)
+* SSD1306 OLED Display using hardware I2C
+* EC11 Rotary Encoder with push switch
+* RGB Lighting with Dual-LED Hack
+* Easy `.uf2` firmware flashing
+* Custom PCB + Zero PCB support
 
 ## 📋 Specifications
 
-| Feature | Details |
-|----------|----------|
-| MCU | RP2040-Zero |
-| Display | SSD1306 OLED |
-| Encoder | EC11 Rotary Encoder |
-| Firmware | QMK |
-| PCB | Custom Designed |
-| RGB | Dual LED RGB Hack |
+| Feature  | Details             |
+| -------- | ------------------- |
+| MCU      | RP2040-Zero         |
+| Display  | SSD1306 OLED        |
+| Encoder  | EC11 Rotary Encoder |
+| Firmware | QMK                 |
+| PCB      | Custom Designed     |
+| RGB      | Dual LED RGB Hack   |
 
 ## 📸 Gallery
 
-![Build 1](Hardware/photos/build1.jpg)
-![Build 2](Hardware/photos/build2.jpg)
-![OLED Display](Hardware/photos/oled.jpg)
+<p align="center">
+  <img src="Hardware/photos/build1.jpg" width="30%">
+  <img src="Hardware/photos/build2.jpg" width="30%">
+  <img src="Hardware/photos/oled.jpg" width="30%">
+</p>
+## 📖 Full Build Guide
+
+Want to build your own Apna Dost Macropad?
+
+A complete step-by-step tutorial, including PCB design, assembly, firmware flashing, and testing, is available on Instructables:
+
+👉 **[DIY Custom RP2040 Macropad With OLED and Encoder (QMK)](https://www.instructables.com/DIY-Custom-RP2040-Macropad-With-OLED-and-Encoder-Q/)**
 
 ## 📁 Project Structure
 
@@ -42,7 +50,9 @@ Apna_dost/
 ├── Hardware/
 │   └── photos/         # Build photos
 ├── Schematic/          # Circuit diagrams
-├── demo_video.mp4
+├── Videos/
+│   ├── demo_video.mp4
+│   └── rgb.mp4
 └── README.md
 ```
 
@@ -51,9 +61,10 @@ Apna_dost/
 ### 1. Order PCB
 
 📥 Download the Gerber files from the `Gerber/` folder and upload them to:
-- JLCPCB
-- PCBWay
-- Elecrow
+
+* JLCPCB
+* PCBWay
+* Elecrow
 
 ### 2. Flash Firmware
 
@@ -65,16 +76,14 @@ Put the RP2040-Zero into bootloader mode and drag the generated `.uf2` file onto
 
 ## 📥 Downloads
 
-- Gerber Files
-- Schematic
-- Firmware Source
+* [Gerber Files](Gerber/)
+* [Schematics](Schematic/)
+* [Firmware Source](Firmware/)
 
 ## 🎥 Demo Videos
 
 * [Watch Demo Video 1](Videos/demo_video.mp4)
-* [Watch Demo Video 2](Videos/rgb.mp4)
-
-
+* [Watch RGB Demo](Videos/rgb.mp4)
 
 ## 📜 License
 
